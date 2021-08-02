@@ -1,0 +1,179 @@
+
+
+ 
+
+/* @media (min-width: 576px) and (max-width: 767.9px)  */
+  
+@media (max-width :991px) {
+
+ 
+    .container_header {
+        overflow: hidden;
+    }
+
+    .container_header .navbar .container {
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+
+     .navbar-collapse ,.collapse, .show {
+        width: 100% ;
+
+     }
+     
+     body, header, nav {
+        width: 100% !important;
+
+     }
+     .container {
+        width: 100% !important;
+
+     }
+     nav {
+        width: 100% !important;
+     }
+
+     .navbar {
+        width: 90% !important;
+     }
+     .view {
+        width: 100% !important;
+
+     }
+
+     .navbar-expand-lg {
+        width: 90%;
+     }
+      
+     .scrolling-navbar {
+        width: 90%  ;
+     }
+
+     .active { 
+        width: 100% !important;
+     }
+     .navbar .navbar-expand-lg  .scrolling-navbar  .active {
+        width: 90% !important;
+     }
+     
+     .view .mask .row {
+        width: 100% !important;
+        
+    }
+
+    .container_section2  {
+        width: 90% !important;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container_section2_contents {
+        width: 100% !important;
+        height: auto;
+
+    }
+
+.container_section2_contents .row {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.section2_top_left {
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+.section2_top_right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row2 {
+    position: relative !important;
+    display: block;
+}
+#about,#journal,#ourwork, #service {
+    height: auto !important;
+}
+ 
+.section2_bottom_left {
+    text-align: center;
+    position: relative;
+    bottom:-430px;
+    right: 310px !important; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section2_botom_right {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    bottom:430px
+}
+
+.section2_ourteam {
+    margin: 0 !important;
+    text-align: left;
+}
+
+.section2_wework  {
+    text-align: left !important;
+}
+
+.section2_furniture2 {
+    text-align: left !important;
+
+}
+
+.container_section3  {
+    width: 100%;
+    height: auto !important;
+}
+
+.container_section3_contents  {
+    width: 90% !important;
+    height: auto;
+}
+
+.container_section3_contents1 {
+    width: 100%;
+}
+.section3_contents  {
+    display: block !important;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_section4 .container {
+    width: 100%;
+    padding-left: 0px ;
+    padding-right: 0px;
+}
+.swiper-container {
+    left: -195px !important;
+    margin-right: 40px !important;
+}
+ 
+.swiper-slide .image    {
+    width: 100%;
+}
+
+#totalSlides {
+    right: -290px !important;
+}
+
+}
