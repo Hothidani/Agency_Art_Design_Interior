@@ -83,7 +83,7 @@ header{
     left: 0;
     right: 0;
     width: 100% !important;
-    height: 100px !important;
+    height: 96px !important;
     z-index: 1000;
 }
 
@@ -151,6 +151,18 @@ nav .navbar-expan-lg {
     padding: 0.1rem  !important;
     opacity: none;
 }
+.nav-item a{
+    width: auto;
+    height: 27px;
+    padding: auto 0px !important;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0.1rem  !important;
+    opacity: none;
+}
 
 a{
     color: #FFFFFF !important;
@@ -160,7 +172,11 @@ a{
     width: 154px;
     height: 49px;
     color: #FFFFFF;
-    border:0.5px solid #FFFFFF ;
+    border:0.5px solid #FFFFFF ; 
+    font-family: 'ABeeZee', sans-serif;
+    line-height: 21.28px;
+    font-weight: 400;
+    font-size: 18px;
 
 }
 
@@ -265,6 +281,7 @@ a{
 }
 
 .section2_about {
+    display: flex;
     width: 128px;
     height: 36px;
     color: #FFFFFF;
@@ -275,6 +292,7 @@ a{
 
 .hr-light {
     width: 50px !important;
+    border:  1px solid #FFFFFF;
 }
 
 .section2_ambitious {
@@ -327,9 +345,12 @@ a{
 }
 
 .section2_botom_right {
+    display: flex;
+    flex-direction: column;
     width: 579px;
     height: 326px;
     margin-top: 44px !important;
+    justify-content: flex-end !important;
 }
 
 .row2 {
@@ -357,12 +378,15 @@ a{
 }
 
 .section2_ourteam {
+    display: flex;
     width: 175px;
     height: 36px;
+    margin-left: auto;
     color: #FFFFFF;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
+    justify-content: space-between;
 }
 
 .section2_wework {
@@ -401,12 +425,27 @@ a{
     margin-top: 50px;
 }
 
-.column {
+.column1
+{
     width: 347.28px ;
     height: 215px ;
+    margin-right: auto;
 }
 
-.column .column_title {
+.column2 {
+    width: 347.28px ;
+    height: 215px ;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.column3 {
+    width: 347.28px ;
+    height: 215px ;
+    margin-left: auto;
+} 
+
+.column1 .column_title, .column2 .column_title, .column3 .column_title {
     height: 42px;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
@@ -415,11 +454,12 @@ a{
     line-height: 42px;  
 }
 
-.column .column_content {
+.column1 .column_content , .column2 .column_content , .column3 .column_content {
     height: 99px;
     margin-top: 14px;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     font-size: 22px;
     line-height: 33px;  
 }
@@ -454,7 +494,7 @@ a{
 .footer_logo {
     width: 143px;
     height: 45px;
-    margin-right: 135px !important;
+    margin-right: 135px ;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF ;
@@ -504,7 +544,11 @@ a{
     width: 171px;
     height: 55px;
     color: #FFFFFF;
-    border:1px solid #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    border:1px solid #FFFFFF; 
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .partner_item {
@@ -527,7 +571,7 @@ a{
   }
 
   .container_section4 .container {
-      width: 1240px !important;
+      width: 1240px ;
       padding-top: 122px !important;
   }
 
@@ -587,7 +631,7 @@ a{
 .swiper-container {
     left: -350px ;
 }
-/* ------------------------------------------- */
+/* ----------------------------------------------------------------------- */
 
 #right_img1{
     width: 609.97px  ;
@@ -656,12 +700,13 @@ a{
 .col_12 {
     display: flex ;
     flex-wrap: wrap !important;
-    width: 1240px !important;
+    width: 1240px ;
 }
 
 #col_12 {
     display: flex;
     justify-content: space-between;
+    width: 1240px ;
 }
 
 .carousel-inner {
