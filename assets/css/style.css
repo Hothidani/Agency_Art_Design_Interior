@@ -5,7 +5,7 @@ header{
   height:752px;
 }
 .current-img2 {
-    width: 432px;
+    width: 432px !important;
     height: 279px
 }
 
@@ -29,6 +29,7 @@ header{
     width: 1240px;
     height: 112px;
     margin-top: 30px;
+    margin-bottom: 75px;
     border-top: 1px solid rgb(223, 206, 206);
 }
 
@@ -589,14 +590,14 @@ a{
 /* ------------------------------------------- */
 
 #right_img1{
-    width: 609.97px !important;
+    width: 609.97px  ;
     height: 386px !important;
     object-fit: cover !important;
     position:absolute;
     z-index: 2;
 }
 #right_img2{
-    width: 609.97px !important;
+    width: 609.97px  ;
     height: 386px !important;
     margin-left: 28px;
     margin-top: 26px;
@@ -607,15 +608,16 @@ a{
 }
 
 #left_img1{
-    width: 563.44px !important;
-    height: 412px !important;
+    width: 563.44px  ;
+    height: 412px  ;
     margin-left: 39px;
     object-fit: cover !important;
     position:absolute;
     z-index: 2;
 }
+
 #left_img2{
-    width: 563.44px !important;
+    width: 563.44px  ;
     height: 412px !important;
     margin-top: 35px;
     object-fit: cover !important;
@@ -640,15 +642,26 @@ a{
 }
 
 .image2 {
-    width: 431px !important;
+    width: 431px  !important;
     height: 325px !important;
 
 }
 
 .image2 img {
-    width: 431px !important;
+    width: 431px  ;
     height: 325px !important;
     object-fit: cover !important;
+}
+
+.col_12 {
+    display: flex ;
+    flex-wrap: wrap !important;
+    width: 1240px !important;
+}
+
+#col_12 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .carousel-inner {
@@ -683,6 +696,9 @@ a{
 
 }
 
+.Interior {
+    text-decoration: underline;
+}
 
 .image2_title {
     width: 229px;

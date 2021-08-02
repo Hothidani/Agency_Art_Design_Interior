@@ -2,8 +2,274 @@
 
  
 
-/* @media (min-width: 576px) and (max-width: 767.9px)  */
-  
+@media (min-width: 576px) and (max-width: 767.9px) {
+
+    .container_header {
+        overflow: hidden;
+    }
+
+    .container_footer  {
+        width: 100% !important;
+        height: auto !important;
+        
+    }
+    /* .col-sm-12 {
+        width: 100% !important;
+    } */
+
+    .container_header .navbar .container {
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+
+     .navbar-collapse ,.collapse, .show {
+        width: 100% ;
+
+     }
+
+    .nav_hero_text_title   {
+         width: 90% !important;
+         height: auto !important;
+     }
+
+     .section2_furniture, .section2_ambitious, .section2_about , .subtext-header {
+        width: 90% !important;
+        height: auto;
+        /* margin-top: 40px; */
+     }
+
+     .section2_top_right, .right_img1  {
+        width: 90% !important;
+
+     }
+
+     .section2_bottom_left {
+        width: 90% !important;
+        right: 220px !important;
+    }
+
+     #right_img1, #right_img2{
+        width: 90% !important;
+    }
+
+
+    #left_img1, #left_img2{
+        width: 80% !important;
+    }
+     
+     body, header, nav {
+        width: 100% !important;
+
+     }
+     .container {
+        width: 100% !important;
+
+     }
+     nav {
+        width: 100% !important;
+     }
+
+     .navbar {
+        width: 90% !important;
+     }
+     .view {
+        width: 100% !important;
+
+     }
+
+     .navbar-expand-lg {
+        width: 90%;
+     }
+      
+     .scrolling-navbar {
+        width: 90%  ;
+     }
+
+     .active { 
+        width: 100% !important;
+     }
+     .navbar .navbar-expand-lg  .scrolling-navbar  .active {
+        width: 90% !important;
+     }
+     
+     .view .mask .row {
+        width: 100% !important;
+        
+    }
+
+    .container_section2  {
+        width: 90% !important;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container_section2_contents {
+        width: 100% !important;
+        height: auto;
+
+    }
+
+.container_section2_contents .row {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.section2_top_left {
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+.section2_top_right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row2 {
+    position: relative !important;
+    display: block;
+}
+#about,#journal,#ourwork, #service {
+    height: auto !important;
+}
+ 
+/* .section2_bottom_left {
+    text-align: center;
+    position: relative;
+    bottom:-430px;
+    right: 310px  ; 
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.section2_wework {
+    width: 100% !important;
+}
+
+.section2_botom_right {
+    width: 100% !important;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    bottom:430px
+}
+
+.section2_ourteam {
+    margin: 0 !important;
+    text-align: left;
+}
+
+.section2_wework  {
+    text-align: left !important;
+}
+
+.section2_furniture2 {
+    text-align: left !important;
+
+}
+
+.container_section3  {
+    width: 100%;
+    height: auto !important;
+}
+
+.container_section3_contents  {
+    width: 90% !important;
+    height: auto;
+}
+
+.container_section3_contents1 {
+    width: 100%;
+}
+.section3_contents  {
+    display: block !important;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_section4  {
+    width: 100%;
+}
+
+
+.container_section4 .container {
+    width: 100%;
+    padding-left: 0px ;
+    padding-right: 0px;
+}
+.swiper-container {
+    left: -128px !important;
+    margin-right: 40px !important;
+}
+ 
+.swiper-slide .image    {
+    width: 100%;
+}
+
+.image2 {
+    width: 100% !important;
+
+}
+
+.image2 img {
+    width: 100% !important;
+}
+.container_section5 .container .swiper-container .swiper-wrapper .swiper-slide {
+    width: 100% !important;
+    margin-right: 50px !important;
+}
+
+#totalSlides {
+    right: -290px !important;
+}
+
+.col-sm-12 {
+    width: 100%;
+}
+
+#col_12 {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: block;
+    height: auto;
+}
+.col_12 {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+
+}
+.container_footer .row {
+    width: 90% !important;
+    height: auto !important;
+}
+
+.footer_ourwork {
+    position: absolute;
+    right: 0px;
+    bottom:-5075px;
+}
+
+.footer_button {
+    position: absolute;
+    right: 53px;
+    bottom: -5142px;
+}
+}
+  /* ------------------------------------------------------------------ */
 @media (max-width :991px) {
 
  
@@ -106,7 +372,7 @@
     text-align: center;
     position: relative;
     bottom:-430px;
-    right: 310px !important; 
+    right: 310px  ; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -164,7 +430,7 @@
     padding-right: 0px;
 }
 .swiper-container {
-    left: -195px !important;
+    left: -195px  ;
     margin-right: 40px !important;
 }
  
