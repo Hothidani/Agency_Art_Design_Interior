@@ -1,288 +1,4 @@
-@media (min-width: 480px)  {
-    #dotsSlides {
-        left: 55px !important;
-    }
 
-    #dotsSlides2 {
-        left: 55px !important;
-    }
-
-    #totalSlides {
-        right: -290px !important;
-    }
-    #totalSlides {
-        right: -290px !important;
-    }
-    .container_header {
-        overflow: hidden;
-    }
-
-    .container_footer  {
-        width: 100% !important;
-        height: auto !important;
-        
-    }
-  
-
-    .container_header .navbar .container {
-        width: 100% !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-    
-
-     .navbar-collapse ,.collapse, .show {
-        width: 100% ;
-
-     }
-
-    .nav_hero_text_title   {
-         width: 90% !important;
-         height: auto !important;
-     }
-
-     .section2_furniture, .section2_ambitious,.subtext-header {
-        width: 90% !important;
-        height: auto;
-     }
-
-     .section2_top_right, .right_img1  {
-        width: 90% !important;
-
-     }
-
-     .section2_bottom_left {
-        width: 90% !important;
-        right: 220px !important;
-        bottom:-512px !important;
-    }
-
-     #right_img1, #right_img2{
-        width: 90% !important;
-    }
-
-
-    #left_img1, #left_img2{
-        width: 80% !important;
-    }
-     
-     body, header, nav {
-        width: 100% !important;
-
-     }
-     .container {
-        width: 100% !important;
-
-     }
-     nav {
-        width: 100% !important;
-     }
-
-     .navbar {
-        width: 90% !important;
-     }
-     .view {
-        width: 100% !important;
-
-     }
-
-     .navbar-expand-lg {
-        width: 90%;
-     }
-      
-     .scrolling-navbar {
-        width: 90%  ;
-     }
-
-     .active { 
-        width: 100% !important;
-     }
-     .navbar .navbar-expand-lg  .scrolling-navbar  .active {
-        width: 90% !important;
-     }
-     
-     .view .mask .row {
-        width: 100% !important;
-        
-    }
-
-    .container_section2  {
-        width: 90% !important;
-        height: auto !important;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .container_section2_contents {
-        width: 100% !important;
-        height: auto;
-
-    }
-
-.container_section2_contents .row {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-.section2_top_left {
-    margin-left: auto;
-    margin-right: auto;
-
-} 
-.section2_top_right {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.row2 {
-    position: relative !important;
-    display: block;
-}
-#about,#journal,#ourwork, #service {
-    height: auto !important;
-}
- 
-.section2_wework {
-    width: 100% !important;
-}
-
-.section2_botom_right {
-    width: 100% !important;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    bottom:430px
-}
-
-.section2_ourteam {
-    margin: 0 !important;
-    text-align: left;
-}
-
-.section2_wework  {
-    text-align: left !important;
-}
-
-.section2_furniture2 {
-    text-align: left !important;
-    width: 80%;
-
-}
-
-.container_section3  {
-    width: 100%;
-    height: auto !important;
-    margin-top: 50px;
-}
-
-.container_section3_contents  {
-    width: 90% !important;
-    height: auto;
-}
-
-.container_section3_contents1 {
-    width: 100%;
-}
-.section3_contents  {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-.container_section4  {
-    width: 100%;
-}
-
-
-.container_section4 .container {
-    width: 100% !important;
-    padding-left: 0px ;
-    padding-right: 0px;
-}
-.swiper-container {
-    left: -128px !important;
-    margin-right: 40px !important;
-}
- 
-.swiper-slide .image    {
-    width: 100%;
-}
-
-.image2 {
-    width: 100% !important;
-
-}
-
-.image2 img {
-    width: 100% !important;
-}
-.container_section5 .container {
-    width: 85% !important;
-
-}
-.container_section5 .container .swiper-container .swiper-wrapper .swiper-slide {
-    width: 100% !important;
-    margin-right: 50px !important;
-}
-
-.col-sm-12 {
-    width: 100%;
-}
-
-#col_12 {
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    display: block;
-    height: auto;
-}
-.col_12 {
-    display: block !important;
-    width: 100% !important;
-    height: auto !important;
-
-}
-.container_footer .row {
-    width: 90% !important;
-    height: auto !important;
-}
-
-.footer_ourwork {
-    position: absolute;
-    right: 0px;
-    bottom:-5075px;
-}
-
-.footer_button {
-    position: absolute;
-    right: 53px;
-    bottom: -5142px;
-}
-
-.section2_ambitious {
-    width: 80% !important ;
-
-}
- 
-.column1 .column_content, .column2 .column_content, .column3 .column_content {
-    width: 100% !important ;
-    height: auto !important;
-}
-.column3 {
-    position: relative !important;
-    left: 0px !important;
-    bottom:-20px !important;
-} 
-.column2, .column3 {
-margin: 0 !important;
-}
-}
 /* ------------------------------------------------------------------------- */
 @media (max-width: 575.9px)  {
 
@@ -1047,4 +763,293 @@ margin: 0 !important;
 .col_12  {
     width: 95% !important;
 }
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+
+@media (min-width: 480px)  {
+    /* #dotsSlides {
+        left: 55px !important;
+    }
+
+    #dotsSlides2 {
+        left: 55px !important;
+    }
+
+    #totalSlides {
+        right: -290px !important;
+    }
+    #totalSlides {
+        right: -290px !important;
+    }
+    .container_header {
+        overflow: hidden;
+    }
+
+    .container_footer  {
+        width: 100% !important;
+        height: auto !important;
+        
+    }
+  
+
+    .container_header .navbar .container {
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+
+     .navbar-collapse ,.collapse, .show {
+        width: 100% ;
+
+     }
+
+    .nav_hero_text_title   {
+         width: 90% !important;
+         height: auto !important;
+     }
+
+     .section2_furniture, .section2_ambitious,.subtext-header {
+        width: 90% !important;
+        height: auto;
+     }
+
+     .section2_top_right, .right_img1  {
+        width: 90% !important;
+
+     }
+
+     .section2_bottom_left {
+        width: 90% !important;
+        right: 220px !important;
+        bottom:-512px !important;
+    }
+
+     #right_img1, #right_img2{
+        width: 90% !important;
+    }
+
+
+    #left_img1, #left_img2{
+        width: 80% !important;
+    }
+     
+     body, header, nav {
+        width: 100% !important;
+
+     }
+     .container {
+        width: 100% !important;
+
+     }
+     nav {
+        width: 100% !important;
+     }
+
+     .navbar {
+        width: 90% !important;
+     }
+     .view {
+        width: 100% !important;
+
+     }
+
+     .navbar-expand-lg {
+        width: 90%;
+     }
+      
+     .scrolling-navbar {
+        width: 90%  ;
+     }
+
+     .active { 
+        width: 100% !important;
+     }
+     .navbar .navbar-expand-lg  .scrolling-navbar  .active {
+        width: 90% !important;
+     }
+     
+     .view .mask .row {
+        width: 100% !important;
+        
+    }
+
+    .container_section2  {
+        width: 90% !important;
+        height: auto !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container_section2_contents {
+        width: 100% !important;
+        height: auto;
+
+    }
+
+.container_section2_contents .row {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.section2_top_left {
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+.section2_top_right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row2 {
+    position: relative !important;
+    display: block;
+}
+#about,#journal,#ourwork, #service {
+    height: auto !important;
+}
+ 
+.section2_wework {
+    width: 100% !important;
+}
+
+.section2_botom_right {
+    width: 100% !important;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    bottom:430px
+}
+
+.section2_ourteam {
+    margin: 0 !important;
+    text-align: left;
+}
+
+.section2_wework  {
+    text-align: left !important;
+}
+
+.section2_furniture2 {
+    text-align: left !important;
+    width: 80%;
+
+}
+
+.container_section3  {
+    width: 100%;
+    height: auto !important;
+    margin-top: 50px;
+}
+
+.container_section3_contents  {
+    width: 90% !important;
+    height: auto;
+}
+
+.container_section3_contents1 {
+    width: 100%;
+}
+.section3_contents  {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.container_section4  {
+    width: 100%;
+}
+
+
+.container_section4 .container {
+    width: 100% !important;
+    padding-left: 0px ;
+    padding-right: 0px;
+}
+.swiper-container {
+    left: -128px !important;
+    margin-right: 40px !important;
+}
+ 
+.swiper-slide .image    {
+    width: 100%;
+}
+
+.image2 {
+    width: 100% !important;
+
+}
+
+.image2 img {
+    width: 100% !important;
+}
+.container_section5 .container {
+    width: 85% !important;
+
+}
+.container_section5 .container .swiper-container .swiper-wrapper .swiper-slide {
+    width: 100% !important;
+    margin-right: 50px !important;
+}
+
+.col-sm-12 {
+    width: 100%;
+}
+
+#col_12 {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: block;
+    height: auto;
+}
+.col_12 {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+
+}
+.container_footer .row {
+    width: 90% !important;
+    height: auto !important;
+}
+
+.footer_ourwork {
+    position: absolute;
+    right: 0px;
+    bottom:-5075px;
+}
+
+.footer_button {
+    position: absolute;
+    right: 53px;
+    bottom: -5142px;
+}
+
+.section2_ambitious {
+    width: 80% !important ;
+
+}
+ 
+.column1 .column_content, .column2 .column_content, .column3 .column_content {
+    width: 100% !important ;
+    height: auto !important;
+}
+.column3 {
+    position: relative !important;
+    left: 0px !important;
+    bottom:-20px !important;
+} 
+.column2, .column3 {
+margin: 0 !important;
+} */
 }
