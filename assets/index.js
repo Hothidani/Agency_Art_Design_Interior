@@ -2,6 +2,7 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: 2.3,
     // spaceBetween: 80,
     centeredSlides: true,
+  
     pagination: {
         el: "#dotsSlides",
         clickable: true,
