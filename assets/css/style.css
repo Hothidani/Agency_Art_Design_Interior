@@ -322,6 +322,7 @@ a{
 }
 
 .section2_furniture {
+    max-width: 579px ;
     /* width: 579px; */
     height: 198px;
     margin-top: 30px;
