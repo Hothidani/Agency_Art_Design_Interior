@@ -322,7 +322,7 @@ a{
 }
 
 .section2_furniture {
-    width: 579px;
+    /* width: 579px; */
     height: 198px;
     margin-top: 30px;
     color: #FFFFFF;
@@ -331,7 +331,6 @@ a{
     line-height: 33px;
     overflow: hidden;
     display: -webkit-box;
-    /* -webkit-line-clamp: 1; */
 }
 
 .section2_top_right {
@@ -477,6 +476,7 @@ a{
 
 .section3_contents {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
     justify-content: space-between;
 }
@@ -976,7 +976,7 @@ div#swiper-wrapper-7d53c7629a37a672 {
 }
 
 .footer_contents {
-    display: flex !important;
+    display: flex  ;
     width: 1240px;
     margin-left: auto;
     margin-right: auto;
