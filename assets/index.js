@@ -22,7 +22,7 @@ $('.swiper-pagination-bullet').mouseenter(function() {
 
 var swiper2 = new Swiper(".Swiper", {
     slidesPerView: 2.3,
-    // spaceBetween: 80,
+    // spaceBetween: 39,
     centeredSlides: true,
     pagination: {
         el: "#dotsSlides2",

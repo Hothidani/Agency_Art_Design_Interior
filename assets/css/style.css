@@ -14,9 +14,9 @@ header{
     height: 752px;
     background-image:  
     linear-gradient( to bottom,
-       rgba(49, 49, 49, 0.2),
-       rgba(49, 49, 49, 0.2),
-       rgba(49, 49, 49, 0.2),
+       rgba(49, 49, 49, 0.8),
+       rgba(49, 49, 49, 0.8),
+       rgba(49, 49, 49, 0.8),
         #1C1C1C
         ), 
       url("../image/Hero\ background.svg"); 
@@ -299,9 +299,7 @@ a{
 
 .hr-light {
     width: 50px !important;
-    /* height: 1px; */
     background-color: #FFFFFF;
-    /* border:  1px solid #FFFFFF; */
     margin-top: auto !important;
     margin-bottom: auto !important;
     margin-left: 0;
@@ -323,7 +321,6 @@ a{
 
 .section2_furniture {
     max-width: 579px ;
-    /* width: 579px; */
     height: 198px;
     margin-top: 30px;
     color: #FFFFFF;
@@ -879,14 +876,12 @@ overflow: hidden;
 #dotsSlides {
     position: absolute;
     bottom: -50px;
-    /* left: 70px !important; */
     z-index: 1;
 }
 
 #dotsSlides2 {
     position: absolute;
     bottom: 18px;
-    /* left: 80px !important; */
     z-index: 1;
 }
 
