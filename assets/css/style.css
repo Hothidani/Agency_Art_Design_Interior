@@ -131,23 +131,24 @@ nav .navbar-expan-lg {
 }
 
 .nav-link {
-    width: auto;
     height: 27px;
-    padding: auto 0px !important;
+    /* padding: 0.1rem  !important; */
     color: #FFFFFF;
-    padding: 0.1rem  !important;
+    padding-top: 0.1rem  !important;
+    padding-bottom: 0.1rem  !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     opacity: none;
 }
 .nav-item a{
     width: auto;
     height: 27px;
-    padding: auto 0px !important;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 27px;
-    padding: 0.1rem  !important;
+    line-height: 27px; 
+    padding: 0.1rem 0.02rem !important;
     opacity: none;
 }
 
