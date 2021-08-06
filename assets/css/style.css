@@ -458,7 +458,7 @@ a{
 }
 
 .section2_top_right {
-    max-width: 638px;
+    width: 638px;
     height: 412px;
 }
 
@@ -742,6 +742,7 @@ a{
     height: 386px !important;
     object-fit: cover !important;
     position:absolute;
+    /* right: 0; */
     z-index: 2;
 }
 #right_img2{
@@ -751,6 +752,7 @@ a{
     margin-top: 26px;
     object-fit: cover !important;
     position:absolute;
+    /* right: 0; */
     opacity: 0.3;
     z-index:1
 }
